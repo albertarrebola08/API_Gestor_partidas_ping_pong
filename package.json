@@ -9,10 +9,15 @@
   "author": "Albert Arrebola Sans",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "express": "^4.18.0",
     "jsonwebtoken": "^8.5.1",
+=======
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+>>>>>>> 70864a3e58749ae57411226f4bba463bcecec122
     "mongodb": "^4.5.0",
     "mongoose": "^6.3.3",
     "morgan": "^1.10.0"

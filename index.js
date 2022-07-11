@@ -7,8 +7,11 @@ app.use(cors())
 
 const rutaPartidas = require('./src/rutas/rutaPartidas');
 const rutaUsuarios = require('./src/rutas/rutaUsuarios');
+<<<<<<< HEAD
 const r_registro = require('./src/rutas/r_registro')
 const r_login = require('./src/rutas/r_login')
+=======
+>>>>>>> 70864a3e58749ae57411226f4bba463bcecec122
 
 //IMPORTAMOS EL OBJETO DB 
 const db = require('./src/database')
@@ -32,8 +35,11 @@ app.use(express.urlencoded({ extended: false }));
 //midleware para las rutas de la api
 app.use('/api/usuarios',rutaUsuarios);
 app.use('/api/partidas',rutaPartidas) 
+<<<<<<< HEAD
 app.use('/api/registro',r_registro) 
 app.use('/api/login',r_login) 
+=======
+>>>>>>> 70864a3e58749ae57411226f4bba463bcecec122
 
 
 app.get('/',(req,res)=>{
@@ -41,6 +47,11 @@ app.get('/',(req,res)=>{
 })
 //
 //Levantamos servidor en puerto 8000
+<<<<<<< HEAD
 app.listen(6000,()=>{
     console.log('Escuchando servidor en el puerto 6000',);
+=======
+app.listen(8000,()=>{
+    console.log('Escuchando servidor');
+>>>>>>> 70864a3e58749ae57411226f4bba463bcecec122
 })

@@ -7,6 +7,7 @@ var Schema = mongoose.Schema;
 var EsquemaUsuario = new Schema({
     nombre:String,
     apellidos:String,
+<<<<<<< HEAD
     user:String,
     pass:String,
     email:String,
@@ -14,6 +15,13 @@ var EsquemaUsuario = new Schema({
     partidos_jugados:Number,
     puntos_totales:Number,
     roles:[String]
+=======
+    email:String,
+    nickname:String,
+    posicion_ranking:Number,
+    partidos_jugados:Number,
+    puntos_totales:Number
+>>>>>>> 70864a3e58749ae57411226f4bba463bcecec122
 });
 
 //creo el modelo
